@@ -1,0 +1,15 @@
+
+{
+    Margin: 0;
+    Padding: 0;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;  
+    background-image: url(bavettes_sandaynoto_1.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+}
