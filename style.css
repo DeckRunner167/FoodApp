@@ -1,14 +1,68 @@
+* {
+    margin:  10;
+    padding: 10;
+}
 
-*{
-    margin: 0;
-    padding: 0;
+body {
+    width: 100%;
+    height: 100%;
+
+
 }
-body{
-    width: 100vw;
-    height: 100vh;  
-    background-image: url(bavettes_sandaynoto_1.jpg);
-    background-size: cover; 
-    background-position: center;
-    background-repeat: no-repeat;
-    backdrop-filter: blur(10px);
-}
+
+.top {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0px 40px;
+
+    .logo {
+        font-size: 30px;
+        color: orange;
+        box-shadow: 0 0 30px orange;
+    }
+
+    .nav {
+        position: relative;
+        left: -180px;
+    }
+
+    a {
+        padding: 5px 15px;
+        color: orange;
+        font-size: 20px;
+        text-decoration: none;
+
+        a:hover {
+            color: rgb(238, 234, 234);
+            text-decoration: underline;
+            text-underline-position: under;
+            box-shadow: 0 0 30px orange;
+        }
+
+    }
+
+    .search {
+        font-size: 25px;
+    }
+
+    .search i {
+        padding: 5px 20px;
+        color: white;
+
+    }
+
+    .heading {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 65px;
+        align-items: center;
+
+    }
+    
+
+    }
+
