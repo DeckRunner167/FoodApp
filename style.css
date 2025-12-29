@@ -1,8 +1,7 @@
 
-{
-    Margin: 0;
-    Padding: 0;
-
+* {
+    margin: 0;
+    padding: 0;
 }
 body{
     width: 100vw;
